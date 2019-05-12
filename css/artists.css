@@ -1,0 +1,356 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+* p {
+    margin: 0px;
+}
+
+* a{
+    text-decoration: none;
+    color: black;
+}
+
+input[type=text]{
+    padding: 10px 100px 10px 10px;
+    background-color: #f4f1f1;
+    border: none;
+}
+
+
+/* Navigacijska traka */
+
+nav p{
+    font-size: 14px;
+}
+nav{
+    background-color: white;
+    padding-left: 150px;
+    padding-top: 25px;
+    margin-bottom: -25px;
+    padding-bottom: 25px;
+    position: fixed;
+    width: 100%;
+}
+
+nav a:hover{
+  border-bottom: 2px solid #ededed;
+}
+
+
+.logo {
+    width: 137px;
+    height: 22px;
+}
+
+.nav_container {
+
+}
+
+.prvi_stupac {
+    display: inline-block;
+    width: 51%;
+}
+
+
+.drugi_stupac {
+    display: inline-block;
+    width: 48%;
+}
+
+.ps_prvired {
+    padding-bottom: 20px;
+}
+
+.ds_prvired {
+    padding-bottom: 20px;
+    margin-left: 155px;
+}
+
+.ds_drugired p {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.linkovi{
+    font-weight: bold;
+}
+
+#hire{
+    color: cadetblue;
+}
+
+.support{
+    color: cadetblue;
+    font-weight: bold;
+
+}
+
+/* Dio sa stvarima */
+
+.naslovna-slika{
+	background-image: url(../img/artist.jpg);
+	height: 400px;
+  padding-top: 123px;
+  width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.ns-text{
+	width: 50%;
+	height: 100%;
+	margin-left: 150px;
+	color: white;
+}
+
+
+.text-naslov{
+	padding-top: 30px;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.podnaslov-naslov{
+  font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 30px;
+  margin-right: 150px;
+    line-height: 1.6;
+}
+
+.drugi-podnaslov{
+  	font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn{
+  margin-top: 50px;
+}
+
+.btn a{
+  background-image: linear-gradient(to right, #06beb6, #48b1bf);
+  padding: 20px 70px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.anim-cover{
+  background-color: white;
+  background-size: cover;
+}
+
+/* Sekcija sa albumima */
+
+.albumi{
+  margin-left: 15%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.albumi-prvired{
+  display: flex;
+}
+
+.album-container{
+  background-color: #eef2f3;
+}
+
+.veliki-album{
+  display: flex;
+  padding-right: 10px;
+}
+
+
+.malialbum2{
+  padding-right: 10px;
+}
+
+.malialbum3{
+  padding-right: 10px;
+}
+
+.albumslika1{
+  background-image: url(../img/albumi/album1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 275px;
+  width: 275px;
+}
+
+.deskripcija{
+  background-color: white;
+  width: 350px;
+  height: 275px;
+}
+
+.albumi-drugired{
+  display: flex;
+  margin-top: 10px;
+}
+
+.albumslika2{
+  background-image: url(../img/albumi/album21.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 275px;
+  height: 150px;
+}
+
+.deskripcija1{
+  background-color: white;
+  height: 125px;
+  width: 275px;
+}
+
+.albumslika3{
+  background-image: url(../img/albumi/album2.jpg);
+  width: 300px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deskripcija2{
+  background-color: white;
+  height: 125px;
+  width: 300px;
+}
+
+.albumslika4{
+  background-image: url(../img/albumi/album3.jpg);
+  width: 300px;
+  height: 150px;
+}
+
+.deskripcija3{
+  background-color: white;
+  height: 125px;
+  width: 300px;
+}
+
+.albumslika5{
+  background-image: url(../img/albumi/album4.jpg);
+  width: 290px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deskripcija4{
+  background-color: white;
+  height: 75px;
+  width: 290px;
+}
+
+.imealbuma{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.artist{
+    font-size: 20px;
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.infoartist{
+  margin-top: 20px;
+  margin-left: 18px;
+  line-height: 1.6;
+  font-size: 14px;
+  font-family: serif;
+}
+
+.imealbuma1{
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+
+.artist1{
+  margin-left: 5px;
+  font-size: 13px;
+  color: #555252;
+  margin-top: 10px;
+}
+
+.imealbuma2{
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+
+.artist3{
+  margin-left: 5px;
+  font-size: 13px;
+  color: #555252;
+  margin-top: 10px;
+}
+
+.imealbuma3{
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+
+.artist4{
+  margin-left: 5px;
+  font-size: 13px;
+  color: #555252;
+  margin-top: 10px;
+}
+
+.imealbuma4{
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+
+.artist5{
+  margin-left: 5px;
+  font-size: 13px;
+  color: #555252;
+  margin-top: 10px;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: cadetblue;
+}
+
+.container {
+    margin-left: 100px;
+    padding: 40px;
+}
+
+.autorskaprava {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.info {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+footer a{
+	color: white;
+	line-height: 1.6;
+
+}

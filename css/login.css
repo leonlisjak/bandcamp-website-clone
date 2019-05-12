@@ -1,0 +1,160 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* p {
+    margin: 0px;
+}
+
+* a {
+    text-decoration: none;
+    color: black;
+}
+
+
+input[type=text]{
+    border: 1px solid #d6d4d4;
+    padding: 10px 15px;
+}
+
+input[type=password]{
+    border: 1px solid #d6d4d4;
+    padding: 10px 15px;
+}
+
+
+/* Gornji dio */
+
+.logo {
+    width: 137px;
+    height: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.gornji-dio{
+    background-color: #DDDDDD;
+}
+
+/* Login dio*/
+
+.naslov{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.border{
+    border-bottom: 1px solid cadetblue;
+    border-bottom-style: dotted;
+    border-bottom-width: 3px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.username p{
+  margin-right: 15px;
+}
+.username{
+  margin-bottom: 10px;
+}
+
+.password p{
+  margin-right: 17px;
+}
+
+.log-btn{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+        margin-top: 20px;
+    padding: 20px 10px;
+}
+
+#log-btn{
+        border: 1px solid cadetblue;
+    background-color: cadetblue;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.forget{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 40%;
+    padding-top: 10%;
+
+}
+
+.forget p{
+    padding-top: 10px;
+}
+
+.forget a{
+    color: #70d1ff;
+}
+
+.username p{
+    display: inline-block;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.inputusername{
+    display: inline-block;
+}
+
+.password p{
+    display: inline-block;
+        font-weight: bold;
+    color: darkslategray;
+}
+
+.inputpassword{
+    display: inline-block;
+
+}
+
+.loginc{
+    padding-top: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: cadetblue;
+    color: white;
+}
+
+.container {
+    margin-left: 100px;
+    padding: 40px;
+}
+
+.autorskaprava {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.info {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+footer a{
+    color: white;
+    font-size: 15px;
+}
