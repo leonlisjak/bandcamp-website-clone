@@ -28,9 +28,8 @@ nav p{
 }
 nav{
     background-color: white;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 25px;
-    padding-right: 150px;
     margin-bottom: -25px;
     padding-bottom: 25px;
     position: fixed;
@@ -70,6 +69,7 @@ nav a:hover{
 .ds_prvired {
     padding-bottom: 20px;
     margin-left: 155px;
+    padding-left: 0px;
 }
 
 .ds_drugired p {
