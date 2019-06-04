@@ -110,7 +110,6 @@ nav a:hover{
 
 
 .text-naslov{
-	padding-top: 30px;
   font-weight: lighter;
   font-size: 35px;
 }
@@ -337,16 +336,22 @@ footer {
 .container {
     margin-left: 100px;
     padding: 40px;
+    position: relative;
 }
 
 .autorskaprava {
     display: inline-block;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 
 .info {
     display: inline-block;
     margin-bottom: 40px;
+    position: absolute;
+}
+
+.social{
+  margin-top: 55px;
 }
 
 footer a{

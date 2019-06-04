@@ -24,11 +24,12 @@ input[type=text]{
 nav p{
     font-size: 14px;
 }
-nav{
-    background-color: white;
-        border-bottom: 2px solid #f3f3f3;
-}
 
+nav{
+position:fixed;
+width: 100%;
+background-color: white;
+}
 
 .logo {
     width: 137px;
@@ -117,8 +118,7 @@ nav{
 .aboutme-sekcija{
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 10%;
-  margin-top: 5%;
+padding-top: 100px;
 }
 
 .naslov{
@@ -158,6 +158,12 @@ nav{
   bottom: 0px;
 }
 
+.mail-ikona{
+	width: 35px;
+	height: 35px;
+  padding-left: 10px;
+}
+
 .logos{
   padding-top: 20px;
   bottom: 0px;
@@ -173,16 +179,22 @@ footer {
 .container {
     margin-left: 100px;
     padding: 40px;
+    position: relative;
 }
 
 .autorskaprava {
     display: inline-block;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 
 .info {
     display: inline-block;
     margin-bottom: 40px;
+    position: absolute;
+}
+
+.social{
+  margin-top: 55px;
 }
 
 footer a{

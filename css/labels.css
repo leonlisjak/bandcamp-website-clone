@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+* p {
+    margin: 0px;
+}
+
+* a{
+    text-decoration: none;
+    color: black;
+}
+
+input[type=text]{
+    padding: 10px 100px 10px 10px;
+    background-color: #f4f1f1;
+    border: none;
+}
+
+
+/* Navigacijska traka */
+
+nav p{
+    font-size: 14px;
+}
+nav{
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 25px;
+    margin-bottom: -25px;
+    padding-bottom: 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 25;
+}
+
+nav a:hover{
+  border-bottom: 2px solid #ededed;
+}
+
+
+.logo {
+    width: 137px;
+    height: 22px;
+}
+
+.nav_container {
+
+}
+
+.prvi_stupac {
+    display: inline-block;
+    width: 51%;
+}
+
+
+.drugi_stupac {
+    display: inline-block;
+    width: 48%;
+}
+
+.ps_prvired {
+    padding-bottom: 20px;
+}
+
+.ds_prvired {
+    padding-bottom: 20px;
+    margin-left: 155px;
+    padding-left: 0px;
+}
+
+.ds_drugired p {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.linkovi{
+    font-weight: bold;
+}
+
+#hire{
+    color: cadetblue;
+}
+
+.support{
+    color: cadetblue;
+    font-weight: bold;
+
+}
+
+/* Naslovna */
+
+.naslovna-slika{
+  background-image: url(../img/labels/naslovna.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-ns{
+  padding-top: 123px;
+}
+
+#naslov{
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 25px;
+}
+
+.podnaslov{
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.podnaslov1{
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.text{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.btn{
+  background-image: linear-gradient(to right, #06beb6, #48b1bf);
+  padding: 20px 70px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.container{
+margin-top: 100px;
+}
+
+.prvired{
+  width: 100%;
+  display: flex;
+}
+
+.pr-text{
+  width: 40%;
+  margin-top: 131px;
+}
+
+.slika{
+  background-image: url(../img/labels/label.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  margin-left: 120px;
+}
+
+#naslov1{
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#podnaslov1{
+  line-height: 1.6;
+}
+
+.drugired{
+  display: flex;
+}
+
+.dr-text{
+  width: 40%;
+  padding-top: 110px;
+}
+
+.slika1{
+  background-image: url(../img/labels/fullfill.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  margin-right: 120px;
+}
+
+.trecired{
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.slika2{
+  background-image: url(../img/labels/merch.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  margin-left: 120px;
+}
+
+.tr-text{
+  width: 40%;
+  margin-left: 150px;
+  margin-top: 131px;
+}
+
+#naslov2{
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#podnaslov2{
+  line-height: 1.6;
+}
+
+/* Label kolekcija*/
+
+.label-kolekcija{
+  margin-left: 120px ;
+  display: flex;
+  padding-top: 50px;
+  margin-top: 10px;
+}
+
+.label{
+  background-image: url(../img/labels/qs.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  padding-left: 100px;
+}
+
+.label1{
+  background-image: url(../img/labels/ms.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  padding-left: 100px;
+  height: 200px;
+}
+
+.label2{
+  background-image: url(../img/labels/nt.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  padding-left: 100px;
+}
+
+.label3{
+  background-image: url(../img/labels/dfa.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  padding-left: 100px;
+}
+
+/* Footer */
+
+footer {
+    background-color: cadetblue;
+}
+
+.container {
+    margin-left: 100px;
+    padding: 40px;
+    position: relative;
+}
+
+.autorskaprava {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.info {
+    display: inline-block;
+    margin-bottom: 40px;
+    position: absolute;
+}
+
+.social{
+  margin-top: 55px;
+}
+
+footer a{
+    color: white;
+    font-size: 15px;
+}
